@@ -1,0 +1,51 @@
+body {
+    padding: 1rem;
+    margin: 0;
+}
+
+#overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;    
+}
+
+#oversikt {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+#oversikt img {
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    #oversikt {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 700px) {
+    #oversikt {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    #oversikt {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
