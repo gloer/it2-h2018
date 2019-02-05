@@ -1,2 +1,2 @@
-#Oppgave 1
+# Oppgave 1
 Denne oppgaven har jeg løst ganske manuelt...
