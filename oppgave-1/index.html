@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Oppgave 1 - Heiskort</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.3/css/foundation-float.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <main>
+        <h1>Beregn pris på heiskortet ditt</h1>
+        <form id="skjemaHeiskort">
+            <label>Er du voksen eller barn (0 - 12 år)</label>
+            <select id="velgAlder" required>
+                <option value="">Velg alder</option>
+                <option value="Barn">Barn (0 - 12 år)</option>
+                <option value="Voksen">Voksen (13 år og oppover)</option>
+            </select>
+            <label>Velg antall dager</label>
+            <select id="velgAntallDager">
+                <option value="">Antall dager</option>
+                <option value="1">1 dag</option>
+                <option value="2">2 dager</option>
+                <option value="3">3 dager</option>
+                <option value="4">4 dager</option>
+                <option value="5">5 dager</option>
+                <option value="6">6 dager</option>
+                <option value="7">7 dager</option>
+            </select>
+            <button class="button" type="submit">Beregn pris for heiskortet</button>
+        </form>
+
+        <article id="info" class="callout success">
+            Velg alder og antall dager du ønsker heiskort for.
+        </article>
+
+    </main>
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>
