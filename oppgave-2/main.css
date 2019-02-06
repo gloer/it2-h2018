@@ -114,6 +114,7 @@ section.hytte, section#video {
 
 .sirkel:hover {
     background-color: lightyellow;
+    border: 2px solid green;
 }
 
 #forside {
@@ -139,7 +140,7 @@ section.hytte, section#video {
 }
 
 .image-container {
-    background-image: url("../Vedlegg_H18/menybilde.jpg");
+    background-image: url("./bilder/menybilde.jpg");
     background-repeat: no-repeat;
     
     width: 60vw;
@@ -154,6 +155,11 @@ section.hytte, section#video {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 50%;
     cursor: pointer;
+}
+
+.image-container a:hover {
+    background-color: transparent;
+    
 }
 
 #linkGranbo {
